@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+// document.addEventListener("DOMContentLoaded", () => {
   const logo = document.createElement("img");
   logo.id = "logo";
   logo.src =
@@ -38,4 +38,4 @@ document.addEventListener("DOMContentLoaded", () => {
       "https://media.licdn.com/dms/image/C5603AQExrFcQWSoOpQ/profile-displayphoto-shrink_200_200/0/1661536428004?e=2147483647&v=beta&t=IAuIWgF5T8RvsxahP-x3wLrcD0HgDkFt0LYCEIQU9g8";
     image.replaceWith(img);
   }
-});
+// });
