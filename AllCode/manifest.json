@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Codesmith Times",
+  "description": "Changes elements on www.newyorktimes.com to a Codesmith theme",
+  "version": "1.0.0",
+  "icons": {
+    "16": "Assets/16.png",
+    "32": "Assets/32.png",
+    "48": "Assets/48.png",
+    "128": "Assets/128.png"
+  },
+  "action": {
+    "default_title": "Codesmith Times",
+    "default_icon": "Assets/16.png",
+    "default_popup": "popup.html"
+  }
+}
