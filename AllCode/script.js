@@ -1,19 +1,20 @@
-// document.addEventListener("DOMContentLoaded", () => {
   const logo = document.createElement("img");
   logo.id = "logo";
   logo.src =
-    "https://see.fontimg.com/api/renderfont4/8MOa2/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/VGhlIENvZGVzbWl0aCBUaW1lcw/chomsky.png";
-  logo.style.display = "block";
+    "https://see.fontimg.com/api/renderfont4/8MOa2/eyJyIjoiZnMiLCJoIjoxMzAsInciOjIwMDAsImZzIjo2NSwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYifQ/VGhlIENvZGVzbWl0aCBUaW1lcw/chomsky.png";
+  // logo.style.display = "block";
   logo.style.marginLeft = "auto";
-  logo.style.marginRight = "auto";
-  logo.position = "absolute";
-  // document.querySelector('.NYTAppHideMasthead').replaceWith(logo);
+  logo.style.marginRight = "15%%";
+  document.querySelectorAll('div')[10].replaceWith(logo);
+  document.querySelectorAll('div')[13].replaceWith(logo);
+  
+
 
   let allPs = document.querySelectorAll("p");
   for (let index = 0; index < allPs.length; index++) {
     const eachP = allPs[index];
     let par = document.createElement("p");
-    par.innerText = "Clinks has infiltrated the New York Times mainframe";
+    par.innerText = "Clinks has infiltrated the mainframe";
     eachP.replaceWith(par);
   }
 
@@ -39,4 +40,5 @@
       "https://media.licdn.com/dms/image/C5603AQExrFcQWSoOpQ/profile-displayphoto-shrink_200_200/0/1661536428004?e=2147483647&v=beta&t=IAuIWgF5T8RvsxahP-x3wLrcD0HgDkFt0LYCEIQU9g8";
     image.replaceWith(img);
   }
-// });
+
+  document.querySelector('#masthead-bar-one').remove();
