@@ -7,6 +7,7 @@
   logo.style.marginLeft = "auto";
   logo.style.marginRight = "auto";
   logo.position = "absolute";
+  // document.querySelector('.NYTAppHideMasthead').replaceWith(logo);
 
   let allPs = document.querySelectorAll("p");
   for (let index = 0; index < allPs.length; index++) {
